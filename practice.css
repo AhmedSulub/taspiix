@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contener{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.logo i{
+    font-size: 2em;
+    color: orangered;
+}
+.logo h2{
+    font-size: 1.7em;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+    list-style: none;
+    font-size: 1.5em;
+    color: orangered;
+}
+#butone{
+ padding: 12px 25px;
+ background-color: rgb(5, 187, 238);
+ border: none;
+ border-radius: 8px;
+ font-size: 20px;
+ color: white;
+ color: fuchsia;
+}
+/* sect iwo */
+.contenertwo{
+    /* background-image: linear-gradient(to right fuchsia, yellow); */
+    background-image: linear-gradient(to right,  fuchsia , rgb(5,187,238));
+    width: 100%;
+    height: 100vh;
+    /* background-color: fuchsia; */
+}
+.left{
+   padding-top: 12%; 
+   padding-left: 10%;
+   width: 35%;
+}
+.qaybtahose h3{
+    font-size: 1.7em;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.qaybtahose p{
+    width: 60%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+span{
+    font-size: 1.6em;
+    color: green;
+}
+.center img{
+    width: 140px;
+    border-radius: 5px;
+  
+}
+.center{
+    display: flex;
+    gap: 5%;
+}
+#butontwo{
+padding: 10px 15px;
+ background-color: rgb(5, 187, 238);
+ border: none;
+ border-radius: 8px;
+ font-size: 20px;
+ /* color: white; */
+ color: fuchsia;
+
+}
+.contenertwo{
+    display: flex;
+   justify-content: center;
+   gap: 20%;
+}
+.right{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin-top: 6%; 
+    border-radius: 10px;
+    border: 5px black solid;
+}
+.isbarbardhig{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 10%;
+}
+.isbarbardhig h5{
+    font-size: 1.5em;
+}
+.isbarbardhig i{
+    font-size: 2em;
+   
+}
+.flex{
+    width: 260px;
+    height: 170px;
+    background-color: blueviolet;
+    margin-left: 6%;
+    margin-top: 3%;
+    border-radius: 14px;
+    text-align: center;
+}
+.flex p{
+    font-size: 1.2em;
+    color: white;
+    padding-top: 6%;
+}
+.flex h4{
+    font-size: 1.4em;
+    color: white;
+    padding-top: 14px;
+}
